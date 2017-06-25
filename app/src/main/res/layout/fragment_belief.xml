@@ -28,26 +28,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
-            android:src="@drawable/iamuturn"
+            android:src="@drawable/image4"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:contentDescription="@string/content_desc_smiling"/>
 
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_header_message"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/colorAccentTrans">
         <TextView
             android:id="@+id/tv_header_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
             android:text="@string/belief_header_message"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
 
-
+</android.support.v7.widget.CardView>
         <LinearLayout
             android:id="@+id/button_container"
             android:layout_width="wrap_content"
@@ -57,7 +66,7 @@
             android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_header_message"
+            app:layout_constraintTop_toBottomOf="@+id/cv_header_message"
             style="?android:attr/buttonBarStyle"
             >
 
@@ -67,9 +76,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:padding="10dp"
                 android:background="@drawable/btn_belief_lining"
                 android:text="@string/belief_button_vision_label"
-                android:textColor="@color/textColorSecondary"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
@@ -77,9 +87,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:padding="10dp"
                 android:background="@drawable/btn_belief_lining"
                 android:text="@string/belief_button_mission_label"
-                android:textColor="@color/textColorSecondary"
                 />
 
             <Button
@@ -88,9 +98,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:padding="10dp"
                 android:background="@drawable/btn_belief_lining"
                 android:text="@string/belief_button_code_label"
-                android:textColor="@color/textColorSecondary"/>
+                />
 
         </LinearLayout>
 
@@ -104,11 +115,10 @@
             app:cardBackgroundColor="#a8c89e3c"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button_container"
-            app:layout_constraintBottom_toTopOf="@+id/tv_bible_verse">
+            app:layout_constraintBottom_toTopOf="@+id/cv_bible_verse">
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,20 +134,29 @@
 
         </android.support.v7.widget.CardView>
 
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_bible_verse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/colorAccentTrans">
         <TextView
             android:id="@+id/tv_bible_verse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
             android:text="@string/beliefs_verse_text"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/textColorPrimary"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginBottom="40dp"/>
+            android:textColor="@color/textColorPrimary"/>
+        </android.support.v7.widget.CardView>
 
     </android.support.constraint.ConstraintLayout>
 
