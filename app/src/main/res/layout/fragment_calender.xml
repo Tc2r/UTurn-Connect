@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:id="@+id/calendar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorAccent"
+            android:elevation="10dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_cal_month"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textAlignment="center"/>
+
+            <com.github.sundeepk.compactcalendarview.CompactCalendarView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/compactcalendar_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:compactCalendarTargetHeight="250dp"
+                app:compactCalendarTextSize="12sp"
+                app:compactCalendarBackgroundColor="@color/colorPrimary"
+                app:compactCalendarTextColor="@color/textColorPrimary"
+                app:compactCalendarCurrentSelectedDayBackgroundColor="@color/colorPrimaryLight"
+                app:compactCalendarCurrentDayBackgroundColor="@color/colorAccent"
+                app:compactCalendarMultiEventIndicatorColor="@color/colorAccent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                />
+                <ListView
+                    android:id="@+id/lv_calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ListView>
+            </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/calendar_layout"
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorPrimaryDark">
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

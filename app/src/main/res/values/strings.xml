@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">UTurn Connect</string>
+    <string name="action_settings">Settings</string>
+    <string name="send_mail_title">Send mail...</string>
+
+    <!--Links and Urls-->
+    <string name="url_utv_playlist" translatable="false">https://uturnnorthlake.sermon.net/widget/listplayer/25587</string>
+    <string name="url_offering" translatable="false">https://myuturn.churchcenteronline.com/giving</string>
+    <string name="url_uturn_website" translatable="false">http://www.myuturn.org/</string>
+    <string name="url_facebook_uturn" translatable="false">https://www.facebook.com/uturncovenantchurch/</string>
+    <string name="url_youtube_uturn" translatable="false">https://www.youtube.com/playlist?list=PL7DSNpdSxnOwGIchF2Z_pRDNxxAS5kIhL</string>
+    <string name="url_church_location" translatable="false">http://maps.google.com/maps/place/UTurn+Covenant+Church/@41.9067955,-87.9014658,11z</string>
+
+    <!--Error Messages-->
+    <string name="contact_error_address">Missing Your Email Address.</string>
+    <string name="contact_error_message">Please add a Message.</string>
+    <string name="contact_error_subject">Please add a Subject.</string>
+    <string name="error_no_client">There is no email client installed.</string>
+    <string name="error_email_prefix">Please fill in all fields</string>
+
+    <!--Beliefs Text-->
+    <string name="belief_header_message">Our beliefs describe how we view God, Jesus, the Holy Spirit, the Bible, and many significant aspects of our Faith. Firmly rooted in scripture, the beliefs of Uturn guide our decisions as a church.</string>
+    <string name="beliefs_verse_text">18 to open their eyes and turn them from darkness to light, and from the power of Satan to God, so that they may receive forgiveness of sins and a place among those who are sanctified by faith in me. -Acts 26:18</string>
+    <string name="belief_button_vision_label">Our Vision</string>
+    <string name="belief_button_mission_label">Our mission</string>
+    <string name="belief_button_code_label">Our Code</string>
+
+    <string name="beliefs_vision_statement">We envision a vibrant church that thrives to discover, develop, and use our spiritual gifts to serve the churched also known as the Body of Christ, and reach the un-churched. \n\n Our vision is to be amulti-cultrural ministry, which will impact the western suburbs of chicago, and also be an influence to others throughout the world. having a community of mature believers who will know and use their spiritual gifts to serve the community through a community center (Turn Center) which will help in developing individuals through programs such as in performing arts, job development, language, computer courses, interviewing, sports, music and other school programs etc. \n\n The vision is also to have homeless and women\'s shelters, providing the community with a food pantry and programs for children. A clinic for low income families and housing that will help those who are less fortunate. \n\n We also envision a dynamic school for ministry and leadership development center, where vibrant families and leaders will be discipled to impact others within their communities, and throughout the world through missions, and sending out leaders for church planting and advancing the kingdom of God.</string>
+
+    <string name="beliefs_code_statement">
+        1. Children – Reaching out to the next generations \n\n
+        2. People- People matter to God. \n\n
+        3. Growth- Real Followers grow. \n\n
+        4. Application- Teaching is for life change. \n\n
+        5. Small Groups- Growing large and smaller at the same time. \n\n
+        6. Community- Impacting those around us. \n\n
+        7. Excellence - God is honored in Excellence. \n\n
+        8. Service - Every member is a minister. \n\n
+        9. Creativity and Innovative - Changing Methods and unchanging message. \n\n
+        10. Unity and Diversity - Focus on things that unite us, not divide us. \n\n
+        11. Relationships - We are called to walk with God, our Relationship with God will determine our relationship with one another. \n\n
+        12. Commitment - We finish what we start. \n\n
+    </string>
+    <string name="beliefs_mission_statement">Impacting and REDIRECTING lives towards their God given DESTINY and MATURITY in Christ.</string>
+
+    <!--OUR WAY Text -->
+    <string name="ourway_header1">What type of church is U-Turn?</string>
+    <string name="ourway_summary1">We are a non-denominational church with people from all backgrounds (no church affiliation, Catholic, Baptist, Pentecostal, etc.). Whether you’ve been attending church for years or this is your first time, you’ll feel welcome at Uturn.</string>
+
+    <string name="ourway_header2">When are the services?</string>
+    <string name="ourway_summary2">We have three services Wednesday 7:30pm refuel service, Sunday at 9:00am Spanish service and 11:00am English service. Each service lasts 65-70 minutes, and you should arrive about 15 minutes early if you have children. That will give you plenty of time to check them in at Ukidz before the service begins.</string>
+
+    <string name="ourway_header3">What should I wear?</string>
+    <string name="ourway_summary3">Whatever you want! We welcome jeans, t-shirts, ties, tuxedos… you get the idea. Come as you are.</string>
+
+    <string name="ourway_header4">How do I get there?</string>
+    <string name="ourway_summary4">Uturn meets at 35 E North Ave, Northlake, IL 60164. We’re next to McDonalds.</string>
+
+    <string name="ourway_header5">What happens when I arrive?</string>
+    <string name="ourway_summary5">As you approach Uturn, you can park where ever you would like. Once inside more greeters will be available to answer any questions, hand you a VIP brochure, and find you the best seat available when you get to the sanctuary. While you wait, feel free to enjoy the music, read about upcoming events up on the screens, and complete as much information as you feel comfortable sharing on the Connection Card in your VIP brochure (which can be placed in the offering basket or given to a greeter).</string>
+
+    <string name="ourway_header6">What is the service like?</string>
+    <string name="ourway_summary6">First of all, you won’t be pointed out or made to feel uncomfortable in any way. You will have a meaningful, stress-free experience…and you’ll have a lot of fun. Each service is about 65 minutes. The first 15 minutes of the service you’ll get to enjoy some modern worship music led by our Worship Arts Team. We’ll have the words to each song up on the screen, so you can sing as much as you feel comfortable! After a short welcome from one of our pastors, there is usually another song or we’ll jump right into the day’s teaching. Each message/sermon is 30-35 minutes long and takes eternal Biblical principles and applies them to your life in some very real and practical ways.</string>
+
+    <string name="ourway_header7">What about my kids?</string>
+    <string name="ourway_summary7">We are a non-denominational church with people from all backgrounds (no church affiliation, Catholic, Baptist, Pentecostal, etc.). Whether you’ve been attending church for years or this is your first time, you’ll feel welcome at Uturn.</string>
+
+    <string name="ourway_header8">Any other questions?</string>
+    <string name="ourway_summary8">Call us 708.865.8876 see you soon!</string>
+
+    <!--Calendar Text-->
+    <string name="calendar_api_sdf" translatable="false">yyyy-MM-dd\'T\'HH:mm:ss\'Z\'</string>
+    <string name="calendar_simplified_sdf" translatable="false">yyyy-MM-dd</string>
+    <string name="calendar_response_sdf" translatable="false">yyyy-MM-dd\'T\'HH:mm:ss</string>
+    <string name="row_date_label">DATE:</string>
+    <string name="row_time_label">TIME:</string>
+
+    <!--Contacts Fragment Text-->
+    <string name="contact_send_email_label">SEND MESSAGE</string>
+    <string name="contact_email_message_hint">Type your message here.</string>
+    <string name="contact_email_message_label">Your Message</string>
+    <string name="contact_email_subject_hint">Questions, Offerings, Thanks, Etc</string>
+    <string name="contact_email_subject_label">Subject</string>
+    <string name="contact_email_address_hint">JC777@Thebeginning.com</string>
+    <string name="contact_email_address_label">Your Email</string>
+    <string name="contact_email_sender_hint">Jesus Christ</string>
+    <string name="contact_email_sender_label">Name</string>
+    <string name="contact_email_summary">Get in touch!</string>
+    <string name="contact_email_header">Have A Question?</string>
+    <string name="contact_connect_social_summary_text">follow us to see live updates, events, prayer updates and glimpses into the culture and activities at U-TURN</string>
+    <string name="contact_connect_social_header_text">Connect With Us</string>
+    <string name="contact_address_text">35 East North Avenue \n Northlake IL, 60164</string>
+    <string name="contact_address_label">Address</string>
+    <string name="contact_email_text">info@myuturn.org</string>
+    <string name="contact_email_label">Email</string>
+    <string name="contact_phone_text">708-865-8876</string>
+    <string name="contact_phone_label">Phone</string>
+    <string name="contact_u_turn_name_text">UTURN COVENANT CHURCH</string>
+    <string name="contact_label">Contact Us</string>
+    <string name="contact_description">Our customer support and account management teams provide the best service in the industry.</string>
+    <string name="contact_summary_text">We\'re friendly and available to chat. Reach out to us anytime and we\'ll happily answer your questions.</string>
+    <string name="contact_header_text">We\'re Hear To Help!</string>
+
+    <!--Content Descriptions-->
+    <string name="content_desc_uturn_logo">U-Turn Logo</string>
+    <string name="content_desc_facebook_icon">Facebook Icon</string>
+    <string name="content_desc_youtube_icon">YouTube Icon</string>
+    <string name="content_desc_smiling">Smiling Members Picture</string>
+
+    <!--Debug Text and Labels-->
+    <string name="debug_label">"CALL: "</string>
+    <string name="debug_failure_text">"FAILED - "</string>
+    <string name="debug_time_min">TIME Min</string>
+
+    <!--Fragment Titles-->
+    <string name="fragment_title_belief">Our Belief</string>
+    <string name="fragment_title_our_way">Our Way</string>
+    <string name="fragment_title_home">Home</string>
+    <string name="fragment_title_media">Media</string>
+    <string name="fragment_title_calendar">Calendar</string>
+</resources>
